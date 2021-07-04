@@ -92,7 +92,7 @@ article mark {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .heading {
@@ -206,8 +206,13 @@ section .heading {
 }
 
 section.yellow {
-  background-color: #ffd061;
+  background-color: #ebb300;
   color: #000 !important;
+}
+
+section.red {
+  background-color: #af2732;
+  color: white !important;
 }
 
 section.yellow .progress .bg-blue {
@@ -288,6 +293,7 @@ section.pink {
   margin-bottom: 50px;
   position: relative;
   text-align: right;
+  font-weight: 600;
 }
 
 #timeline .timeline-item .timeline-icon {
