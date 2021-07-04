@@ -1,0 +1,21 @@
+{
+	"title" : "My Journey",
+	"experience" : [
+		{
+			"timeperiod" : "Aug 2014 - Jun 2018",
+			"company" : "Pune Institute of Computer Technology",
+			"description" : "Bachelors in Computer Engineering, GPA: 9.5"
+		},
+		{
+			"timeperiod" : "Jun 2018 - Apr 2021",
+			"company" : "Plezmo",
+			"website" : "https://technology.plezmo.com",
+			"description" : "Member of Technical Staff, worked on the Plezmo websites, apps and cloud"
+		},
+		{
+			"timeperiod": "Present",
+			"company": "Georgia Institute of Technology",
+			"description": "Masters in Computer Science"
+		}
+	]
+}

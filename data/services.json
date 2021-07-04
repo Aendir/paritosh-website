@@ -1,0 +1,25 @@
+{
+	"title" : "Projects",
+	"services" : [
+		{
+			"icon" : "pencil-ruler",
+			"title" : "Result Analyzer",
+			"description" : "Created a Java application to build a database of students' academic records from the annual results PDF released by the University of Pune. \nCRUD operations and aggregations were implemented."
+		},
+		{
+			"icon" : "pen-nib",
+			"title" : "Domain Adaptation in Neural Networks",
+			"description" : "Implmented Unsupervised Domain Adaptation by Backpropagation by building a model which can be trained on labeled data from source domain and unlabeled data from the target domain to allow the model to be less sensitive to the shift in the domain."
+		},
+		{
+			"icon": "pen-nib",
+			"title": "Buffer Overflow Attacks in UNIX Based Systems",
+			"description": "For my Bachelors Thesis, performed an in-depth study of buffer overflow vulnerabilities and exploits. Also did a comprehensive study of various mechanisms to safeguard systems against buffer overflow attacks. Using ‘ptrace’, designed a utility that monitors the target process and in case of a buffer overflow, reports the instruction which caused the attack and kills the process before any exploits can occur."
+		},
+		{
+			"icon": "pencil-ruler",
+			"title": "Marketing Network for Agricultural Commodities",
+			"description": "For the Smart India Hackathon (2018), developed a mobile based App that can facilitate direct contact between producer (farmer) and buyer to reduce this wide price gap by means of a real time interactive system for communication between farmers and Markets."
+		}
+	]
+}
