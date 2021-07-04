@@ -2,6 +2,7 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 a:hover {
   text-decoration: none;
 }
@@ -97,6 +98,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .heading {
   font-size: 38px;
+}
+
+.subheading {
+  font-size: 28px;
+  margin: 25px auto;
 }
 
 .highlight {
@@ -305,6 +311,14 @@ section.pink {
   color: #0056b3;
 }
 
+.blue-a {
+  color: orange;
+}
+
+.blue-a:hover {
+  color: coral;
+}
+
 #timeline .timeline-item .timeline-icon {
   background: #000;
   width: 20px;
@@ -357,6 +371,22 @@ section.pink {
 
 .skill {
   margin-bottom: 20px;
+}
+
+.achievement-icon {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -10px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.achievement-list-item {
+  padding: 5px;
 }
 
 @media (max-width: 767px) {
@@ -458,3 +488,56 @@ section.pink {
   transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms 350ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 350ms 350ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 /*# sourceMappingURL=styles.css.map */
+
+::-webkit-scrollbar { 
+    display: none !important;
+}
+
+::-webkit-scrollbar-thumb{
+    display: none !important;
+}
+
+.maxheight-desktop {
+  max-height: 100vh;
+}
+
+#tech-achievements-outer-div {
+  border-right: 1px solid white; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%;
+}
+
+#nontech-achievements-outer-div {
+  border-left: 1px solid white; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .maxheight-desktop {
+    max-height: none;
+  }
+
+  .achievement-icon {
+    display: none;
+  }
+
+  .achievements-outer-div {
+    flex-direction: column;
+  }
+
+  #tech-achievements-outer-div {
+    border-bottom: 1px solid white; 
+    border-right: none;
+  }
+
+  #nontech-achievements-outer-div {
+    border-top: 1px solid white; 
+    border-left: none;
+    padding-top: 15px;
+  }
+}
